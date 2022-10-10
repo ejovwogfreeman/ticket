@@ -1,0 +1,35 @@
+* {
+  margin: 0px !important;
+  padding: 0px !important;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #1f262d;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  font-weight: medium;
+}
+
+nav .icon {
+  position: absolute;
+  left: 20px;
+}
+
+.ticket-container {
+  background-color: red;
+  width: 400px;
+  margin: 50px auto !important;
+}
+
+.ticket-container .ticket {
+  width: 320px;
+  background-color: blue;
+  border-radius: 15px;
+  text-align: center;
+}

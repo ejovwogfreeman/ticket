@@ -101,8 +101,53 @@
         </div>
       </div>
       <div class="btn-containetr">
-        <button class="transfer-btn">Transfer</button>
+        <button class="transfer-btn" id="modal-button">Transfer</button>
         <button class="sell-btn">Sell</button>
+      </div>
+    </div>
+    <div id="bg"></div>
+    <div class="modal-container" id="modal-container">
+      <div class="mod-container">
+        <h6>SELECT TICKETS TO TRANSFER</h6>
+        <div class="line"></div>
+        <div class="imark">
+          <span>i</span>
+          <p>
+            Only transfer tickets to people you know and trust to ensure
+            everyone stays safe and socially distanced.
+          </p>
+        </div>
+        <div class="floor">
+          <p>Sec Floor, Row GA</p>
+          <span
+            ><iconify-icon icon="ion:ticket-sharp"></iconify-icon>&nbsp;2
+            tickets</span
+          >
+        </div>
+        <div class="seat">
+          <div>
+            <p>SEAT-</p>
+            <span></span>
+          </div>
+          <div>
+            <p>SEAT-</p>
+            <span></span>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="floor top">
+          <p>0 Selected</p>
+          <span>
+            <a href=""
+              >TRANSFER T0
+              <iconify-icon icon="dashicons:arrow-right-alt2"></iconify-icon></a
+          ></span>
+        </div>
+        <iconify-icon
+          icon="fluent-emoji-high-contrast:cross-mark"
+          class="close-icon"
+          id="close"
+        ></iconify-icon>
       </div>
     </div>
   </body>
@@ -112,4 +157,5 @@
     crossorigin="anonymous"
   ></script>
   <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+  <script src="script.js"></script>
 </html>
